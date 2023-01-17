@@ -18,7 +18,11 @@ const HomeAbout = () => {
         <div className="flex justify-center h-screen mb-28">
             <div className="flex-col md:flex-row md:w-[95%] lg:w-5/6 flex justify-between items-center">
                 <div className="w-1/3 hidden md:block" data-aos="fade-up">
-                    <img src="/images/author.JPG" alt="" className="w-full" />
+                    <img
+                        src="/portfolio-website/images/author.JPG"
+                        alt=""
+                        className="w-full"
+                    />
                 </div>
                 <div
                     className=" relative px-5 sm:px-0 sm:pl-9 w-full md:w-2/3 xl:w-1/2"
@@ -38,7 +42,7 @@ const HomeAbout = () => {
                         </p>
                         <p className="mb-7">
                             <a
-                                href="/resume/yogesh_jangid_resume.pdf"
+                                href="/portfolio-website/resume/yogesh_jangid_resume.pdf"
                                 target={"__blank"}
                                 className="text-[#2f89fc] transition-all duration-300 hover:text-white"
                                 data-aos="fade"

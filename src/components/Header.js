@@ -47,7 +47,7 @@ function Header() {
                 <div className=" w-full px-4 sm:px-0 sm:w-5/6 flex justify-between items-center">
                     <div>
                         <Link
-                            to={"/"}
+                            to={"/portfolio-website"}
                             className="text-white font-poppins text-xl uppercase tracking-[5px]"
                         >
                             YOGESH JANGID
@@ -66,7 +66,7 @@ function Header() {
                         <ul className="flex gap-10 text-white font-poppins tracking-widest text-sm">
                             <li>
                                 <Link
-                                    to={"/"}
+                                    to={"/portfolio-website"}
                                     className="uppercase font-bold hover:text-[#2f89fc] transition-all duration-300 relative hover:after:scale-x-100 after:content-[''] after:left-0 after:right-0 after:absolute after:scale-x-0 after:-bottom-2 after:ease-header-transition after:transition-all after:duration-300 after:h-[2px] after:bg-[#2f89fc]"
                                 >
                                     Home
@@ -74,7 +74,7 @@ function Header() {
                             </li>
                             <li>
                                 <Link
-                                    to={"/resume"}
+                                    to={"/portfolio-website/resume"}
                                     className="uppercase font-bold hover:text-[#2f89fc] transition-all duration-300 relative hover:after:scale-x-100 after:content-[''] after:left-0 after:right-0 after:absolute after:scale-x-0 after:-bottom-2 after:ease-header-transition after:transition-all after:duration-300 after:h-[2px] after:bg-[#2f89fc]"
                                 >
                                     Resume
@@ -82,7 +82,7 @@ function Header() {
                             </li>
                             <li>
                                 <Link
-                                    to={"/portfolio"}
+                                    to={"/portfolio-website/portfolio"}
                                     className="uppercase font-bold hover:text-[#2f89fc] transition-all duration-300 relative hover:after:scale-x-100 after:content-[''] after:left-0 after:right-0 after:absolute after:scale-x-0 after:-bottom-2 after:ease-header-transition after:transition-all after:duration-300 after:h-[2px] after:bg-[#2f89fc]"
                                 >
                                     Portfolio
@@ -90,7 +90,7 @@ function Header() {
                             </li>
                             <li>
                                 <Link
-                                    to={"/contact"}
+                                    to={"/portfolio-website/contact"}
                                     className="uppercase font-bold hover:text-[#2f89fc] transition-all duration-300 relative hover:after:scale-x-100 after:content-[''] after:left-0 after:right-0 after:absolute after:scale-x-0 after:-bottom-2 after:ease-header-transition after:transition-all after:duration-300 after:h-[2px] after:bg-[#2f89fc]"
                                 >
                                     Contact
@@ -120,7 +120,7 @@ function Header() {
                     <ul className="text-black font-poppins mt-5">
                         <li>
                             <Link
-                                to={"/"}
+                                to={"/portfolio-website"}
                                 className="block px-5 py-3 text-lg font-thin transition-all duration-300 hover:text-[#2f89fc]"
                             >
                                 Home
@@ -128,7 +128,7 @@ function Header() {
                         </li>
                         <li>
                             <Link
-                                to={"/resume"}
+                                to={"/portfolio-website/resume"}
                                 className="block px-5 py-3 text-lg font-thin transition-all duration-300 hover:text-[#2f89fc]"
                             >
                                 Resume
@@ -136,7 +136,7 @@ function Header() {
                         </li>
                         <li>
                             <Link
-                                to={"/portfolio"}
+                                to={"/portfolio-website/portfolio"}
                                 className="block px-5 py-3 text-lg font-thin transition-all duration-300 hover:text-[#2f89fc]"
                             >
                                 Portfolio
@@ -144,7 +144,7 @@ function Header() {
                         </li>
                         <li>
                             <Link
-                                to={"/contact"}
+                                to={"/portfolio-website/contact"}
                                 className="block px-5 py-3 text-lg font-thin transition-all duration-300 hover:text-[#2f89fc]"
                             >
                                 Contact

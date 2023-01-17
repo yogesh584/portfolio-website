@@ -30,10 +30,19 @@ function App() {
                 <Background />
 
                 <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/contact" element={<Contact />} />
-                    <Route path="/portfolio" element={<Portfolio />} />
-                    <Route path="/resume" element={<Resume />} />
+                    <Route path="/portfolio-website" element={<Home />} />
+                    <Route
+                        path="/portfolio-website/contact"
+                        element={<Contact />}
+                    />
+                    <Route
+                        path="/portfolio-website/portfolio"
+                        element={<Portfolio />}
+                    />
+                    <Route
+                        path="/portfolio-website/resume"
+                        element={<Resume />}
+                    />
                 </Routes>
 
                 <TopScroller />

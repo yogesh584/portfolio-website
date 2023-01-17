@@ -30,7 +30,7 @@ const Contact = () => {
                 <div className="text-center flex flex-col items-center gap-5">
                     <h1 className="text-4xl tracking-wider">Get In Touch</h1>
                     <img
-                        src="/images/divider.webp"
+                        src="/portfolio-website/images/divider.webp"
                         alt="Divider_Image"
                         className="w-[76px]"
                     />
